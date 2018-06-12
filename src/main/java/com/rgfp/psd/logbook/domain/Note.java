@@ -23,4 +23,11 @@ public class Note {
     @Column(length=10000)
     private String content;
 
+
+    public String getSummary() {
+        if(content.length()>239){
+            return content.substring(0,240);
+        }
+        return content; //
+    }
 }

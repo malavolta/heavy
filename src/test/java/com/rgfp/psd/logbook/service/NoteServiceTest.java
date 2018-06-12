@@ -36,17 +36,17 @@ public class NoteServiceTest {
         n1 = new Note();
         n1.setId(1l);
         n1.setTitle("firstNote");
-        n1.setContent("First note, with words java spring automation.");
+        n1.setContent("Hay muchas variaciones");
 
         n2 = new Note();
         n2.setId(2l);
         n2.setTitle("secondNote");
-        n2.setContent("Second note: with words java spring integration.");
+        n2.setContent("Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo \"Contenido aquí, contenido aquí\". Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de \"Lorem Ipsum\" va a dar por resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los años, algunas veces por accidente, otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo");
 
         n3 = new Note();
         n3.setId(3l);
         n3.setTitle("thirdNote");
-        n3.setContent("Third note! with words java, any more?");
+        n3.setContent("Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) textoreftefrefr");
 
         notes.add(n1);
         notes.add(n2);
@@ -120,5 +120,4 @@ public class NoteServiceTest {
         // tear down
         notes.add(n2);
     }
-
 }
